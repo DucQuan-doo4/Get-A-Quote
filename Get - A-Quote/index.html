@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStart Inc. - Get a Quote</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 20px; }
+       .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1, h2 { color: #0056b3; }
+        form { display: flex; flex-direction: column; gap: 15px; margin-bottom: 30px; }
+        input, select, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #0056b3; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #004494; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        #message { margin-top: 15px; padding: 10px; border-radius: 4px; display: none; }
+       .success { background-color: #d4edda; color: #155724; }
+       .error { background-color: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to TechStart Inc.</h1>
+        <p>Please fill out the form below to request a quote for our services.</p>
+
+        <h2>Request a Quote</h2>
+        <form id="quoteForm">
+            <input type="text" id="customer_name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <select id="service_needed" required>
+                <option value="">-- Select a Service --</option>
+                </select>
+            <textarea id="details" placeholder="Project Details"></textarea>
+            <button type="submit">Submit Request</button>
+        </form>
+        <div id="message"></div>
+
+        <h2>Submitted Quotes</h2>
+        <table id="quotesTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Service</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
