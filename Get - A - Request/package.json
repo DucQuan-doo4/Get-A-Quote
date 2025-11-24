@@ -1,7 +1,7 @@
 {
   "name": "techstart-api",
   "version": "1.0.0",
-  "description": "API for Get-A-Quote App",
+  "description": "API for Get-A-Request App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
