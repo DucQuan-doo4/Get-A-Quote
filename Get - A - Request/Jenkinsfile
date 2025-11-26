@@ -5,7 +5,7 @@ pipeline {
         ECR_REPO = "...."
         CLUSTER_NAME = "..."
         SERVICE_NAME = "..."
-        CONTAINER_NAME = "..." thay thế toàn bộ các dấu ... bằng các thông tin tương ứng
+        CONTAINER_NAME = "..." #thay thế toàn bộ các dấu ... bằng các thông tin tương ứng
         IMAGE_TAG = ""   // khai báo trước để dùng toàn pipeline
         TASK_DEF_ARN = "" // khai báo luôn
     }
