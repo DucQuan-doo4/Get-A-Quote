@@ -10,7 +10,7 @@
       "essential": true,
       "portMappings": [
         {
-          "containerPort": 3000, #neu app chay o cong khac thi thay 2 gia tri nay
+            "containerPort": 3000,
           "hostPort": 3000
         }
       ]
