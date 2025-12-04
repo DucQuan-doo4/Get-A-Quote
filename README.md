@@ -222,7 +222,7 @@ pipeline {
     }
 
 } // <-- đóng pipeline
-
+```
 
 ##  6. API Endpoints
 
